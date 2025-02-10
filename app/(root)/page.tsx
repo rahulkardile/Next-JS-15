@@ -1,4 +1,4 @@
-import Hello from "../components/hello";
+import Album from "../components/Album";
 
 export default function Home() {
 
@@ -6,8 +6,7 @@ export default function Home() {
 
   return (
     <>
-    <h3 className="underline">Welcome to nextjs</h3>
-    <Hello />
+      <Album />
     </>
   );
 }
